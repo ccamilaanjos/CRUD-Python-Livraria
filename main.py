@@ -10,7 +10,7 @@ def createClient():
     conexao = mysql.connector.connect(
         host='localhost',
         user='root',
-        password='admin31ADMIN',
+        password='',
         database='livraria',
     )
     cursor = conexao.cursor()
@@ -40,7 +40,7 @@ def readClient():
     conexao = mysql.connector.connect(
         host='localhost',
         user='root',
-        password='admin31ADMIN',
+        password='',
         database='livraria',
     )
     cursor = conexao.cursor()
@@ -62,7 +62,7 @@ def updateClient():
     conexao = mysql.connector.connect(
         host='localhost',
         user='root',
-        password='admin31ADMIN',
+        password='',
         database='livraria',
     )
     cursor = conexao.cursor()
@@ -93,7 +93,7 @@ def deleteClient():
     conexao = mysql.connector.connect(
         host='localhost',
         user='root',
-        password='admin31ADMIN',
+        password='',
         database='livraria',
     )
     cursor = conexao.cursor()
@@ -110,7 +110,7 @@ def createBook():
     conexao = mysql.connector.connect(
         host='localhost',
         user='root',
-        password='admin31ADMIN',
+        password='',
         database='livraria',
     )
     cursor = conexao.cursor()
@@ -137,7 +137,7 @@ def readBook():
     conexao = mysql.connector.connect(
         host='localhost',
         user='root',
-        password='admin31ADMIN',
+        password='',
         database='livraria',
     )
     cursor = conexao.cursor()
@@ -160,7 +160,7 @@ def updateBook():
     conexao = mysql.connector.connect(
         host='localhost',
         user='root',
-        password='admin31ADMIN',
+        password='',
         database='livraria',
     )
     cursor = conexao.cursor()
@@ -187,7 +187,7 @@ def deleteBook():
     conexao = mysql.connector.connect(
         host='localhost',
         user='root',
-        password='admin31ADMIN',
+        password='',
         database='livraria',
     )
     cursor = conexao.cursor()
